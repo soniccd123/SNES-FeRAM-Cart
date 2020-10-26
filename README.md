@@ -29,7 +29,8 @@ I also find the canibalization of original cartridges for making repros, while u
 - 1x 4071;
 - 2x 74HC245;
 - 1x SuperCIC (PIC12F629 model);
-- 4x 1K Resistors;
+- 1x Led (Optional, only used for SuperCIC)
+- 4x 1K Resistors (5x if using the LED with the SuperCIC);
 - 1x 4 channel DIP Switch;
 - 2x 10nF Capacitors;
 
@@ -43,7 +44,7 @@ While bank switching is present, its use is not absolutely required for the cart
 
 Also, while save capability is present, it is not required for the cart to work. 4071 and 4081 are still required in these cases
 
-SuperCIC should work but i don't have a unit to test it.
+SuperCIC should work but i don't have a unit to test it. It is also not strictly needed if your console is modded for running without it. The LED is as optional and display SuperCIC information when present.
 
 # How to use
 
