@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:snes_multicart-cache
+LIBS:snes_feram-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1094,8 +1094,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 7050 2950 7600
 Wire Wire Line
-	2950 7600 1650 7600
-Wire Wire Line
 	1650 7600 1650 7650
 Connection ~ 1650 7650
 NoConn ~ 2250 6950
@@ -1495,4 +1493,19 @@ Wire Notes Line
 	550  11150 10850 11150
 Wire Notes Line
 	550  8100 10850 8100
+$Comp
+L Device:R R5
+U 1 1 5F973EE2
+P 2450 7600
+F 0 "R5" V 2243 7600 50  0000 C CNN
+F 1 "1K" V 2334 7600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2380 7600 50  0001 C CNN
+F 3 "~" H 2450 7600 50  0001 C CNN
+	1    2450 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 7600 2950 7600
+Wire Wire Line
+	2300 7600 1650 7600
 $EndSCHEMATC
