@@ -44,7 +44,7 @@ While bank switching is present, its use is not absolutely required for the cart
 
 Also, while save capability is present, it is not required for the cart to work. 4071 and 4081 are still required in these cases
 
-SuperCIC should work but i don't have a unit to test it. It is also not strictly needed if your console is modded for running without it. The LED is as optional and display SuperCIC information when present.
+SuperCIC should work but i don't have a unit to test it. It is also not strictly needed if your console is modded for running without it. The LED is also optional and display SuperCIC information when present.
 
 # How to use
 
