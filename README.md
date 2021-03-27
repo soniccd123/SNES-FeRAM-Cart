@@ -44,9 +44,13 @@ While bank switching is present, its use is not absolutely required for the cart
 
 Also, while save capability is present, it is not required for the cart to work. 4071 and 4081 are still required in these cases
 
-SuperCIC should work but i don't have a unit to test it. It is also not strictly needed if your console is modded for running without it. The LED is also optional and display SuperCIC information when present.
+SuperCIC have been tested by other users and works. A SOIC8 footprint will be added aswell in the next commit for more package options.
 
 # How to use
+
+The ROMs to be written to the EPROM need to be headerless and byteswapped, this is very important. The byteswapping need is a artifact of my prototyping process and may be changed in the future.
+
+Be sure that all chips are in the correct orientation. KiCAD stock footprint silkscreen are quite bad at indicating chip's orientation. New clearer silkscreens for the footprints may be added in the future.
 
 ROM type: HiROM and LoROM are selected by shorting the corresponding side of all the jumpers to the center, HiROM ones are annotated with H and LoROM with L.
 
@@ -60,5 +64,9 @@ ROM_y begin at 0x180000 -> Switch A19 and A18 off;
 This technique may not be compatible with save supporting SNES/Super Famicom software.
 
 How to make multirom file: Just use the CMD command "copy /b rom_x.bin + rom_y.bin + rom_z.bin rom_result.bin" to join them to one file. One may join how many ROMs he wants to, just be shure that the result file is smaller than the total size of the EPROM and that the ROMs fit correctly to each desired bank to make software switching possible.
+
+# Disclaimer
+
+I'm not an professional engineer and created this project as a hobby, this said, problems and errors maybe present and in need to be corrected. I'll try you to help the best as I can if any problems arrise but be aware that they may exist.
 
 Happy playing!
