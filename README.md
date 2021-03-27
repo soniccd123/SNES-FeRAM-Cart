@@ -18,7 +18,7 @@ I also find the canibalization of original cartridges for making repros, while u
 - 32KB of FeRAM for saving (256kb)
 - No need for backup battery
 - Rudimentary ROM bank switch (Permits multiple games on same ROM)
-- SuperCIC support (still untested)
+- SuperCIC support
 - DOES NOT SUPPORT SPECIAL CHIP GAMES (while i would love to, this is quite away from my capacity as of now)
 
 # Component List:
