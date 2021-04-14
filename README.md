@@ -54,7 +54,7 @@ Be sure that all chips are in the correct orientation. KiCAD stock footprint sil
 
 ROM type: HiROM and LoROM are selected by shorting the corresponding side of all the jumpers to the center, HiROM ones are annotated with H and LoROM with L.
 
-Bank Switching: The user may write multiple roms to the same EPROM, the DIP switch controls which area of the EPROM is read by the SNES/Super Famicom; The minimum bank size is 256KB. Each of the switches connect a memory address line between the system and the EPROM: when the switch is on, the respective address line is controlled by the Sega Genesis; When off, the EPROM adress line is pulled-up and cut from Genesis control. the address lines are A20, A19, A18, A17 (considering LSB as A0). To select the desired bank, turn the switches on and off acordingly to the begining address that the ROM occupies in the EPROM.
+Bank Switching: The user may write multiple roms to the same EPROM, the DIP switch controls which area of the EPROM is read by the SNES/Super Famicom; The minimum bank size is 256KB. Each of the switches connect a memory address line between the system and the EPROM: when the switch is on, the respective address line is controlled by the SNES; When off, the EPROM adress line is pulled-up and cut from SNES control. the address lines are A20, A19, A18, A17 (considering LSB as A0). To select the desired bank, turn the switches on and off acordingly to the begining address that the ROM occupies in the EPROM.
 
 Examples:
 
