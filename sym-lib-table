@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "snes_feram-rescue")(type "KiCad")(uri "${KIPRJMOD}/snes_feram-rescue.kicad_sym")(options "")(descr ""))
+)
