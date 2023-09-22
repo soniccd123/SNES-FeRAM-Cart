@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name LIB)(type KiCad)(uri C:/Users/Augusto/Documents/Projetos/Snes/LIB.pretty)(options "")(descr ""))
-  (lib (name OPEN)(type KiCad)(uri C:/Users/Augusto/Documents/Projetos)(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
 )

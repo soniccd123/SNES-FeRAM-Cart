@@ -48,9 +48,7 @@ SuperCIC have been tested by other users and works. A SOIC8 footprint will be ad
 
 # How to use
 
-The ROMs to be written to the EPROM need to be headerless and byteswapped, this is very important. The byteswapping need is a artifact of my prototyping process and may be changed in the future.
-
-Be sure that all chips are in the correct orientation. KiCAD stock footprint silkscreen are quite bad at indicating chip's orientation. New clearer silkscreens for the footprints may be added in the future.
+The ROMs to be written to the EPROM need to be headerless.
 
 ROM type: HiROM and LoROM are selected by shorting the corresponding side of all the jumpers to the center, HiROM ones are annotated with H and LoROM with L.
 
